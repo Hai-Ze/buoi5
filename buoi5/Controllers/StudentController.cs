@@ -8,9 +8,9 @@ namespace buoi5.Controllers
 {
     public class StudentController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDBContext _context;
 
-        public StudentController(ApplicationDbContext context)
+        public StudentController(ApplicationDBContext context)
         {
             _context = context;
         }
